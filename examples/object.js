@@ -12,5 +12,5 @@
       turquoise: 1
     }
   };
-  console.log(JSON.stringify(colors));
+  console.log(JSON.stringify(colors, null, 2));
 }).call(this);

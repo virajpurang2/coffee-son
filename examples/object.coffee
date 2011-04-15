@@ -10,4 +10,4 @@ colors =
     turquoise: 1
 
 # TODO print in a JSON file
-console.log JSON.stringify(colors)
+console.log JSON.stringify(colors, null, 2)

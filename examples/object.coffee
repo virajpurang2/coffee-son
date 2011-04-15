@@ -4,6 +4,7 @@ colors =
     fuchsia: 1
     crimson: 1
   green:
+    # is this really a color?
     forest: 1
   blue:
     turquoise: 1

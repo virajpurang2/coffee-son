@@ -6,3 +6,6 @@ para = [
   ,
     text: ' to this repo'
 ]
+
+# TODO print in a JSON file
+console.log JSON.stringify(para)

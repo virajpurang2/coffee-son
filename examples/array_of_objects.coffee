@@ -1,27 +1,29 @@
-para = [
-  {
-    text: 'A '
-  },
-  {
-    text: 'link'
-    url: 'https://github.com/jsonista/coffee-literals'
-  },
-  {
-    text: ' to this repo'
-  }
-]
+para =
+  [
+    {
+      text: 'A '
+    },
+    {
+      text: 'link'
+      url:  'https://github.com/jsonista/coffee-literals'
+    },
+    {
+      text: ' to this repo'
+    }
+  ]
 
 # TODO print in a JSON file
 console.log JSON.stringify(para, null, 2)
 
-para = [
+para =
+  [
     text: 'A '
   ,
     text: 'link'
     url: 'https://github.com/jsonista/coffee-literals'
   ,
     text: ' to this repo'
-]
+  ]
 
 # TODO print in a JSON file
 console.log JSON.stringify(para, null, 2)

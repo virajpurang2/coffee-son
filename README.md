@@ -27,14 +27,15 @@ CoffeeScript literal:
 
 A terser CoffeeScript literal:
 
-    para = [
+    para =
+      [
         text: 'A '
       ,
         text: 'link'
         url: 'https://github.com/jsonista/coffee-literals'
       ,
         text: ' to this repo'
-    ]
+      ]
 
 JSON:
 
@@ -50,4 +51,8 @@ JSON:
         "text": " to this repo"
       }
     ]
+
+### an array of arrays
+
+
 

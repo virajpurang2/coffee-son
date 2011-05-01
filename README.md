@@ -49,6 +49,6 @@ JSON:
           "text": " to this repo"
         }
       ],
-      "mustache": "<div>\n{{ spans }}\n</div>\n"
+      "mustache": "<div>\n{{ spans }}\n</div>"
     }
 

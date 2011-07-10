@@ -16,7 +16,7 @@ include a parser).
 
 CoffeeScript module with a literal:
 
-``` coffee
+``` coffeescript
 module.exports =
   spans:
     [

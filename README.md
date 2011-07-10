@@ -28,11 +28,11 @@ module.exports =
       text: ' to this repo'
     ]
   mustache:
-    """
+    '''
     <div>
     {{ spans }}
     </div>
-    """
+    '''
 ```
 
 JSON:

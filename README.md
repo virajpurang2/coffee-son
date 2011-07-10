@@ -16,25 +16,28 @@ include a parser).
 
 CoffeeScript module with a literal:
 
-    module.exports =
-      spans:
-        [
-          text: 'A '
-        ,
-          text: 'link'
-          url: 'https://github.com/jsonista/coffee-literals'
-        ,
-          text: ' to this repo'
-        ]
-      mustache:
-        """
-        <div>
-        {{ spans }}
-        </div>
-        """
+``` coffee
+module.exports =
+  spans:
+    [
+      text: 'A '
+    ,
+      text: 'link'
+      url: 'https://github.com/jsonista/coffee-literals'
+    ,
+      text: ' to this repo'
+    ]
+  mustache:
+    """
+    <div>
+    {{ spans }}
+    </div>
+    """
+```
 
 JSON:
 
+``` js
     {
       "spans":
       [
@@ -51,4 +54,4 @@ JSON:
       ],
       "mustache": "<div>\n{{ spans }}\n</div>"
     }
-
+```

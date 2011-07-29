@@ -1,0 +1,28 @@
+{
+  "author": "Ben Atkin <ben@benatkin.com> (http://benatkin.com/)",
+  "name": "coffee-son",
+  "description": "A utility for CoffeeScript literals",
+  "version": "0.0.0",
+  "homepage": "https://github.com/benatkin/coffee-son",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/benatkin/coffee-son.git"
+  },
+  "main": "lib/coffee-son",
+  "engines": {
+    "node": ">=v0.4.7"
+  },
+  "dependencies": {
+    "coffee-script": "v1.1.1",
+    "underscore": "v1.1.7",
+    "traverse": "v0.4.6"
+  },
+  "devDependencies": {
+    "vows": "v0.5.9"
+  },
+  "scripts": {
+    "preinstall": "coffee -o lib/ -c src/*.coffee",
+    "pretest": "coffee -o lib/ -c src/*.coffee",
+    "test": "vows"
+  }
+}

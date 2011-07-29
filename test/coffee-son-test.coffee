@@ -11,4 +11,16 @@ vows
       'we get "module.exports = null"': (topic) ->
         assert.equal topic, "module.exports = null\n"
 
+    'when rendering a small array':
+      topic: -> cson.render ['one', 'two']
+
+      'we get it on multiple lines': (topic) ->
+        assert.equal topic,
+          """
+          module.exports = [
+            "one"
+            "two"
+          ]\n
+          """
+
   .export(module)

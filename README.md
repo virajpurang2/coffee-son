@@ -5,7 +5,7 @@ Goals:
 *   A description of how to format JSON data as literals in CoffeeScript.
     (started)
 *   A tool for rendering JSON data as CoffeeScript for inclusion in
-    CoffeeScript files. (not yet started)
+    CoffeeScript files. (just started)
 
 *Note*: This is not intended as a replacement for JSON, but a tool for using it
 with CoffeeScript. It's not a serialization format, it's an editing 
